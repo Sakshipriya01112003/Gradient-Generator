@@ -21,8 +21,11 @@ A minimalist HTML + Tailwind CSS + Vanilla JavaScript tool that lets you generat
 ---
 
 ## 📁 Project Structure
-index.html — markup and structure
-src/output.css — compiled Tailwind CSS
-script.js — gradient logic, DOM updates, and clipboard API
+- index.html — markup and structure
+- src/output.css — compiled Tailwind CSS
+- script.js — gradient logic, DOM updates, and clipboard API
+
+##Live Preview
+https://sakshipriya01112003.github.io/Gradient-Generator/
 
 
