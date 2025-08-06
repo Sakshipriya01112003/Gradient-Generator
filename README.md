@@ -6,10 +6,10 @@ A minimalist HTML + Tailwind CSS + Vanilla JavaScript tool that lets you generat
 
 ## 🚀 Features
 
-- Random Gradient Generation 
+- **Random Gradient Generation**
   Generate random hex color pairs and preview them as CSS gradients in real time.
 
-- Live Preview & DOM Manipulation 
+- **Live Preview & DOM Manipulation** 
   Clicking buttons updates the background with `linear-gradient(to right, color1, color2)` look and feel instantly.
 
 - **Clipboard Support**  
@@ -21,4 +21,8 @@ A minimalist HTML + Tailwind CSS + Vanilla JavaScript tool that lets you generat
 ---
 
 ## 📁 Project Structure
+index.html — markup and structure
+src/output.css — compiled Tailwind CSS
+script.js — gradient logic, DOM updates, and clipboard API
+
 
