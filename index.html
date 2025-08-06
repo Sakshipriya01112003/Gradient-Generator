@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tailwind Gradient Generator</title>
+  <link href="src/output.css" rel="stylesheet">
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
+  <div class="bg-white p-6 rounded shadow-sm w-full max-w-md">
+    <h1 class="text-xl font-bold mb-4 text-center">Gradient Generator</h1>
+    <div class="flex flex-wrap gap-4 justify-center mb-4">
+      <button id = "btn1" class="bg-gradient-to-r from-red-500 to-orange-500 text-white px-4 py-2 rounded-full cursor-pointer">#b84735</button>
+      <button   id="btn2" class="bg-gradient-to-r from-cyan-700 to-blue-500 text-white px-4 py-2 rounded-full cursor-pointer " >#008793</button>
+    </div>
+    <h2 class="text-center text-gray-600">Click to copy the code</h2>
+
+    <div id="text" class="text-center cursor" >
+    linear-gradient(to right, rgb(92,145,229), rgb(152,63,198))
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
